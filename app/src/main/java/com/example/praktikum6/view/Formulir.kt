@@ -51,3 +51,19 @@ fun WelcomeScreen(
                 .height(200.dp),
             contentScale = ContentScale.Fit
         )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Nama dan NIM
+        Text(
+            text = "Jihadut Tolibin",
+            fontSize = 20.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.SemiBold
+        )
+
+        Text(
+            text = "20230140125",
+            fontSize = 16.sp,
+            color = Color.Gray
+        )
