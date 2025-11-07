@@ -31,3 +31,12 @@ fun WelcomeScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+// Teks Selamat Datang
+        Text(
+            text = "Selamat Datang",
+            fontSize = 28.sp,
+            color = Color(0xFF6A1B9A), // ungu tua
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+
