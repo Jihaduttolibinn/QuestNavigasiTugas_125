@@ -40,3 +40,14 @@ fun WelcomeScreen(
             textAlign = TextAlign.Center
         )
 
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Logo tengah
+        Image(
+            painter = painterResource(id = R.drawable.img), // cukup tanpa .png
+            contentDescription = "Logo CARD-LST",
+            modifier = Modifier
+                .width(200.dp)
+                .height(200.dp),
+            contentScale = ContentScale.Fit
+        )
